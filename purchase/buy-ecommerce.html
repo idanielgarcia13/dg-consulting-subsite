@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DG Consulting · Buy</title>
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="nav-container">
+        <nav>
+          <div id="DGC-title">
+            <a href="../index.html">DG Consulting</a>
+          </div>
+
+          <ul>
+            <li><a href="../index.html">home</a></li>
+            <li><a href="../reviews.html">reviews</a></li>
+            <li class="current-page"><a href="../services.html">services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="order-form">
+      <div class="container">
+        <form class="" action="thank-you.html">
+          <fieldset>
+
+            <legend><b>Order Form</b></legend>
+
+            <div class="field">
+              <label for="first-name">First Name</label>
+              <input id="first-name" type="text" placeholder="john">
+            </div>
+            <div class="field">
+              <label for="last-name">Last Name</label>
+              <input id="last-name" type="text" placeholder="appleseed">
+            </div>
+            <div class="field">
+              <label for="email">Email Address</label>
+              <input id="email" type="text" placeholder="john.appleseed@apple.com">
+            </div>
+
+            <div class="field">
+              <label>Contactless Choice</label>
+              <select class="selection-list">
+                <option value="default" selected disabled hidden>--- Select one ---</option>
+                <option value="apple-pay">Pay</option>
+                <option value="g-pay">Google Pay</option>
+                <option value="samsung-pay">Samsung Pay</option>
+                <option value="paypal-cashless">PayPal</option>
+                <option value="chase-pay">Chase Pay</option>
+                <option value="standard-pay">Standard Cashless</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label>Optional Features</label>
+              <div class="checkbox-items">
+                <input type="checkbox" name="option-1" id="custom-domain"><label for="custom-domain"> Custom Domain Name</label><br>
+                <input type="checkbox" name="option-2" id="payment-analytics"><label class="checkbox-label" for="payment-analytics"> Payment Analytics</label><br>
+                <input type="checkbox" name="option-3" id="detailed-billing"><label for="detailed-billing"> Detailed User Billing</label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label>Special Instructions</label>
+              <textarea name="name" rows="8" cols="60"></textarea>
+            </div>
+
+          </fieldset>
+          <div class="form-buttons">
+            <input type="submit" value="Submit" class=primary-button>
+            <input type="button" value="Cancel" class=secondary-button onclick="window.location.href = '../services.html';">
+          </div>
+        </form>
+        <div class="service-detail-sheet">
+          <img src="../assets/imgs/icons/ecommerce-icon.png" alt="e commerce icon">
+          <h3>E-Commerce</h3>
+          <ul>
+            <li>IoT Capabilities</li>
+            <li>Accept Apple Pay and other cardless services</li>
+            <li>Simplified logistics platform</li>
+            <li>24/7 Support</li>
+          </ul>
+          <button class="secondary-button" type="button" onclick="window.location.href = '../services.html';" name="button">􀅴 more information</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <small>DG Consulting Inc, Copyright &#169; 2019</small>
+        <a href="#"><h1>DG Consulting</h1></a>
+        <div class="social-media">
+          <a href="https://twitter.com" target="_blank"><img src="../assets/imgs/icons/twitter-icon.png" alt="twitter icon"></a>
+          <a href="https://linkedin.com" target="_blank"><img src="../assets/imgs/icons/linkedin-icon.png" alt="linkedin icon"></a>
+          <a href="https://facebook.com" target="_blank"><img src="../assets/imgs/icons/fb-icon.png" alt="twitter icon"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

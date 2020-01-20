@@ -1,0 +1,4 @@
+<img src="assets/imgs/video-icon.png" alt="video icon">
+<img src="assets/imgs/code-icon.png" alt="code icon">
+<img src="assets/imgs/file-icon.png" alt="file icon">
+<img src="assets/imgs/web-icon.png" alt="website icon">

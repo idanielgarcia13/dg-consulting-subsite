@@ -1,0 +1,27 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+  height: inherit;
+}
+h1, h2, h3 {
+  margin: 0.67em 0;
+}
+a {
+  display: block;
+}
+i {
+  display: inline-block;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+textarea {
+  border-radius: 13px;
+  border-bottom-right-radius: 30px;
+  padding: 15px;
+}
